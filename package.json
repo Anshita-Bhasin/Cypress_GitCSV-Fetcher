@@ -1,0 +1,22 @@
+{
+  "name": "cypress_gitcsv-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch csv from private GitHub Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshita-Bhasin/Cypress_GitCSV-Fetcher.git"
+  },
+  "author": "Anshita Bhasin <anshita@propertyfinder.ae>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshita-Bhasin/Cypress_GitCSV-Fetcher/issues"
+  },
+  "homepage": "https://github.com/Anshita-Bhasin/Cypress_GitCSV-Fetcher#readme",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}
