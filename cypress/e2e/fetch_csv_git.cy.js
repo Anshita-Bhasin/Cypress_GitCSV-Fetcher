@@ -7,7 +7,7 @@ describe('Fetch data from different github repository', () => {
             url: "https://api.github.com/repos/Anshita-Bhasin/Cypress_Examples/contents/csv/test.csv",
             headers: {
                 Accept: "application/vnd.github+json",
-                Authorization: "Bearer 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",
+                Authorization: "Bearer <Your_Token>",
             },
         }).then((sshresponse) => {
             cy.writeFile(
